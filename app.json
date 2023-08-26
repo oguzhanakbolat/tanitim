@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "owner": "kodluyoruz",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -15,16 +16,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kodluyoruz.tanitim"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kodluyoruz.tanitim"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d32d19d2-5493-4e2e-8135-809cd8906630"
+      }
     }
   }
 }
